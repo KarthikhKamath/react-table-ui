@@ -1,0 +1,34 @@
+{
+    "columns": [
+      {
+        "accessorKey": "name",
+        "header": "Name",
+        "filterType": "text",
+        "enableSorting": true,
+        "showAvatar": true
+      },
+      {
+        "accessorKey": "role",
+        "header": "Role",
+        "filterType": "multi-select",
+        "enableSorting": false
+      },
+      {
+        "accessorKey": "age",
+        "header": "Age",
+        "filterType": "none",
+        "enableSorting": true
+      },
+      {
+        "accessorKey": "email",
+        "header": "Email",
+        "filterType": "none",
+        "enableSorting": false
+      }
+    ],
+    "filters": {
+      "name": "",
+      "role": []
+    }
+  }
+  

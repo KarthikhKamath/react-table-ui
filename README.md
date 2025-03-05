@@ -17,7 +17,6 @@ Make sure you have the following installed:
 
 ### 1. Unzip the file
 ```sh
-git clone https://github.com/KarthikhKamath/react-table-ui.git
 cd json-table-ui
 ```
 

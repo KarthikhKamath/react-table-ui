@@ -4,8 +4,15 @@
         "accessorKey": "name",
         "header": "Name",
         "filterType": "text",
-        "enableSorting": true,
-        "showAvatar": true
+        "enableSorting": false,
+        "showAvatar": true,
+        "showUsername": true
+      },
+      {
+        "accessorKey": "status",
+        "header": "Status",
+        "filterType": "multi-select",
+        "enableSorting": false
       },
       {
         "accessorKey": "role",
@@ -24,11 +31,19 @@
         "header": "Email",
         "filterType": "none",
         "enableSorting": false
+      },
+      {
+        "accessorKey": "teams",
+        "header": "Teams",
+        "filterType": "multi-select",
+        "enableSorting": false
       }
     ],
     "filters": {
       "name": "",
-      "role": []
+      "role": [],
+      "status": [],
+      "teams": []
     }
   }
   
